@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text-or {
+    text-align: center;
+}
+
+figure.bg1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#img-style {
+    width: 30vh;
+}
+
+
+@media (min-width: 768px) {
+
+    /* Desktop */
+    .login-body {
+        margin-top: 25%;
+        margin-left: 18%;
+    }
+
+    figure.bg1 {
+        position: absolute;
+        top: 0;
+        right: 700px;
+        bottom: -90px;
+        left: 0;
+        padding: 0;
+        text-align: justify;
+        width: 50%;
+        height: 100%;
+    }
+
+    #img-style {
+        margin-top: 250px;
+        margin-left: 1rem;
+        width: 50vh;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    /* Desktop */
+    .login-body {
+        margin-top: 25%;
+        margin-left: 18%;
+    }
+
+    figure.bg1 {
+        position: absolute;
+        top: 0;
+        right: 700px;
+        bottom: -90px;
+        left: 0;
+        padding: 0;
+        text-align: justify;
+        width: 50%;
+        height: 100%;
+    }
+
+    #img-style {
+        margin-top: 250px;
+        margin-left: 7rem;
+        width: 70vh;
+    }
+
+}
+
+
+
+.login-body h3 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+
+
+#formInputUsername {
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#formInputPass {
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 215%;
+}
+
+#term {
+    text-align: center;
+    font-weight: bold;
+    font-size: smaller;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#btn-pass {
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    padding: 0.2rem 0.1rem;
+    font-size: 1.2rem;
+    outline: none;
+    margin-left: 50%;
+    margin-left: 75%;
+    cursor: pointer;
+}
+
+.lupa-pass {
+    margin-left: 10%;
+}
+
+.login-body #button-masuk {
+    color: #ffffff;
+    background: #38A5AD;
+    width: 328px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.btn-primary:not([disabled]):not(.disabled).active #button-masuk,
+.btn-primary:not([disabled]):not(.disabled):active #button-masuk,
+.btn-primary:not([disabled]):not(.disabled).hover #button-masuk,
+.btn-primary:not([disabled]):not(.disabled)#button-masuk:hover {
+    color: #fff !important;
+    background-color: #1b5357 !important;
+    border-color: #ffffff !important;
+}
+
+
+.login-body .text-login {
+    margin-bottom: 5%;
+}
+
+.side-cancel {
+    margin-top: -90%;
+    margin-left: 110%;
+}
+
+.btn-cancel {
+    color: #000;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+#cancel {
+    color: grey;
+}
+
+#cancel:hover {
+    color: grey;
+}
